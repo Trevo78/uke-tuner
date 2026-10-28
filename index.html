@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Uke Tuner</title>
+<link rel="icon" type="image/png" href="icon-512.png">
+<link rel="apple-touch-icon" href="icon.png">
+<meta name="apple-mobile-web-app-title" content="Uke Tuner">
+<meta name="theme-color" content="#f4dfcd">
 <style>
   :root {
     --bg: #f8f3ea;
@@ -28,6 +32,11 @@
     padding: 28px 16px 40px;
   }
   main { width: 100%; max-width: 520px; }
+  .logo {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 20px;
+  }
   h1 {
     font-family: Georgia, "Times New Roman", serif;
     font-weight: 400;
@@ -126,6 +135,7 @@
 </head>
 <body>
 <main>
+  <img class="logo" src="icon-512.png" alt="" width="84" height="84">
   <h1>Uke Tuner</h1>
   <div class="status" id="status">Tap start, then allow the microphone</div>
   <div class="grid" id="grid"></div>
